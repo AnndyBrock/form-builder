@@ -44,8 +44,6 @@ export const fetchForm = async (req, res) => {
  * Fetch all forms
  */
 export const fetchForms = async (req, res) => {
-
-    console.log(1112)
     try {
         // Retrieve all forms
         const forms = await FormModel.find();
